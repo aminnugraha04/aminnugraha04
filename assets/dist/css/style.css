@@ -1,0 +1,170 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body {
+    font-family: sans-serif;
+    color: black;
+    background-image: url(/assets/dist/img/geometric-leaves.png);
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+    background-color: floralwhite;
+}
+
+/* Header dan Menu Navbar Start */
+
+.header {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    width: 960;
+    height: 80px;
+    z-index: 1;
+    background-image: linear-gradient(#a96f44,#f2ecb6);
+    top: 0;
+    /* position: sticky; */
+}
+
+.header .judul {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Fuzzy Bubbles', cursive
+}
+
+.header ul li {
+    display: inline-block;
+
+}
+
+.header a {
+    text-decoration: none;
+    color: darkolivegreen;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.header a:hover {
+    background-color: lightskyblue;
+    color: #fff;
+}
+
+/* Header dan Menu Navbar End */
+
+/* Konten Slide Gambar Utama Start*/
+
+.hero {
+    height: 380px;
+    background-image: url(/assets/dist/img/taking-path-mountains.png);
+    background-position: 0 -50px;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+}
+
+/* Konten Slide Gambar Utama End*/
+
+/* CSS Konten main/Utama Start */
+
+.main {
+    width: 600px;
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.main h2 {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.penulis {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.main a {
+    color: blue;
+}
+
+.main a:hover {
+    text-decoration: underline;
+}
+
+.main p {
+    font: 14px/28px arial;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.main .rm {
+    margin-top: 10px;
+}
+
+/* CSS Konten content/Utama End */
+
+/* CSS Konten Sidebar Start */
+
+.sidebar {
+    width: 300px;
+    float: right;
+    padding: 20px;
+}
+
+.sidebar img {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    float: left;
+    margin-right: 10px;
+}
+
+.sidebar h3 {
+    font-size: 18px;
+}
+
+.sidebar p {
+    font: 12px/28px arial;
+    text-align: initial;
+}
+
+/* CSS Konten Sidebar End */
+
+.footer {
+    background-image: linear-gradient(#a96f44,#f2ecb6);
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+.footer a {
+    color: aqua;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Script Clearfix Float */
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
